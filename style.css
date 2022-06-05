@@ -5,7 +5,6 @@
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
-  overflow-x: hidden;
 }
 @font-face {
   font-family: "pf black";
@@ -75,6 +74,7 @@ header {
   background: linear-gradient(0deg, rgba(224, 244, 255, 0) 8%, #e0f4ff 92%);
   max-width: 100vw;
   position: relative;
+  overflow-x: hidden;
 }
 header .first {
   flex: 1;
@@ -752,7 +752,7 @@ footer .fas {
 @media (max-width: 1000px) {
   nav {
     justify-content: space-between;
-    padding: 5px;
+    padding: 15px 10px;
   }
   nav img {
     width: 80px;
